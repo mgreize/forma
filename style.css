@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("kelias.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#form {
+    height: 600px;
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+    background: white;
+    color: black;
+    padding: 40px
+
+}
+#form h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#form label,
+#form input {
+    display: block;
+    text-align: left;;
+    font-size: 16px;
+    width: 100%;
+    
+}
+#form input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    
+}
+#form label {
+    font-size: 20px;
+    padding: 10px;
+}
+#form .message {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+button {
+    display: block;
+    background: black;
+    color: white;
+    width: 180px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#form-2 {
+    text-align: center;
+}
+#form-2 button {
+    display: block;
+    margin: 20px auto;
+}
